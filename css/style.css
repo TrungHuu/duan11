@@ -285,7 +285,9 @@ ol {
 .header__top__left ul li:last-child:after {
 	display: none;
 }
-
+.dk{
+	margin-left:170px;
+}
 .header__top__left ul li i {
 	color: #252525;
 	margin-right: 5px;
@@ -416,7 +418,7 @@ ol {
 	display: inline-block;
 }
 .header__logo img{
-	width: 50px;
+	width: 110px;
 	margin: 0 50px;
 }
 
@@ -782,6 +784,46 @@ color: #3CC032;
 .hero__text{
 	margin: 0 auto;
 }
+.mn{
+	margin-top: 10px;
+	border: 0.5px solid rgb(150, 145, 145);
+}
+.map{
+	margin: 0 auto;
+}
+
+.mn li a{
+	color: #000;
+	font-size:18px;
+	width: 100%;
+font-style: normal;
+	height: auto;
+	
+	font-family: Arial, Helvetica, sans-serif;
+}
+.mn li h4{
+font-weight: 600;
+}
+.mn li a:hover{
+	color:white;
+	
+	
+	background-color:black;
+}
+	.mn ul li{
+		background-color: #249BC8;
+		width: 100%;
+		height: auto;
+		}
+	
+
+
+.mn ul{
+	border-bottom: none;
+	justify-content: center;
+	position: relative;	
+}
+
 
 .hero__text h2 {
 	font-size: 46px;
@@ -3549,6 +3591,10 @@ color: #3CC032;
 	.btn-dark{
 		width: 200px;
 		margin: 0 auto;
+	}
+	.contact-form {
+		padding-top: 490px;
+		padding-bottom: 80px;
 	}
 	.dnmb{
 		margin-top: 10px;
