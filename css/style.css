@@ -801,15 +801,14 @@ font-style: normal;
 	
 	font-family: Arial, Helvetica, sans-serif;
 }
+.mn li.actipe a{
+	background:#56d742;
+	color: #fff;
+}
 .mn li h4{
 font-weight: 600;
 }
-.mn li a:hover{
-	color:white;
-	
-	
-	background-color:black;
-}
+
 	.mn ul li{
 		background-color: #249BC8;
 		width: 100%;
