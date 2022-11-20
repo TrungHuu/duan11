@@ -98,7 +98,7 @@ a:hover,
 a:focus {
 	text-decoration: none;
 	outline: none;
-	color: #ffffff;
+	color: #000;
 }
 
 ul,
@@ -497,6 +497,17 @@ ol {
 	transition: all, 0.3s;
 	padding: 5px 0;
 	display: block;
+}
+.nextprev a {
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-left: 19px;
+    padding-right: 19px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+.cg{
+	margin: 0 auto;
 }
 .banner{
 	display: none;
