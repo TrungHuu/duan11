@@ -1,159 +1,6 @@
-<!DOCTYPE html>
-<html lang="zxx">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="description" content="Ogani Template">
-    <meta name="keywords" content="Ogani, unica, creative, html">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>WAS TORE</title>
-
-    <!-- Google Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
-
-    
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <!-- Css Styles -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
-    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
-    <link rel="stylesheet" href="css/nice-select.css" type="text/css">
-    <link rel="stylesheet" href="css/jquery-ui.min.css" type="text/css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
-    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
-    <link rel="stylesheet" href="css/style.css" type="text/css">
-</head>
-
-<body>
-    
-    <!-- Page Preloder -->
-    <div id="preloder">
-        <div class="loader"></div>
-    </div>
-
-    <!-- header mô bai -->
-    <div class="humberger__menu__overlay"></div>
-    <div class="humberger__menu__wrapper">
-        <div class="humberger__menu__logo">
-            <a href="#"><img  style="height: 50px;width:50px ;margin-left: 90px;" src="img/was.png" alt=""></a>
-           
-        </div>
-        
-            <!-- menu mobile -->
-        <nav class="humberger__menu__nav mobile-menu">
-            <ul>
-                <li class="active"><a href="./index.html">Trang chủ</a></li>
-                <li><a href="./shop-grid.html">Cửa Hàng</a>
-                    <ul class="header__menu__dropdown">
-                        <li><a href="./shop-details.html">Áo thun</a></li>
-                        <li><a href="./shoping-cart.html">Quần short</a></li>
-                        <li><a href="./checkout.html">Phụ Kiện</a></li>
-                       
-                    </ul>
-                </li>
-                <li><a href="./blog.html">Người dùng</a></li>
-                <li><a href="./contact.html">Giới thiệu</a></li>
-                <li><a href="./contact.html">Liên hệ</a></li>
-            </ul>
-        </nav>
-            <!-- end menu -->
-
-        <div id="mobile-menu-wrap">
-            <div style="margin-left: 30px;" class="header__top__right__auth">
-                <a href="#"><i class="fa fa-user"></i> Người Dùng</a>
-            </div>
-        </div>
-    </div>
-    <!-- header mobile End -->
-
-    <!-- Header destop -->
-    <header class="header">
-        <div class="header__top">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 col-md-6">
-                        <div class="header__top__left">
-                            <ul>
-                                <li><i class="fa fa-envelope"></i>was@localbrand.com</li>
-                                <li>Miễn phí giao hàng với đơn hàng trên 500.000</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6">
-                        <div class="header__top__right">
-                            <!-- icon  -->
-                            <div class="header__top__right__social">
-                                <a href="#"><i class="fa fa-facebook"></i></a>
-                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                <a href="#"><i class="fa fa-instagram"></i></a>
-                            </div>
-                            <!-- end icon  -->
-                            <!-- login  -->
-                            <div class="header__top__right__auth">
-                                <a href="dangnhap.html"><i class="fa fa-user"></i> Login</a>
-                            </div>
-                            <!-- end login  -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-1.5">
-                    <div class="header__logo">
-                        <a href="./index.html"><img src="img/was.png" alt=""></a>
-                    </div>
-                </div>
-                <div class="col-lg-8">
-                    <!-- menu ngang -->
-                    <nav class="header__menu">
-                        <ul>
-                            <li class="active"><a href="./index.html">Trang Chủ</a></li>
-                            <li><a href="./shop-grid.html">Cửa Hàng</a>
-                                <ul class="header__menu__dropdown">
-                                    <li><a href="">Áo Thung</a></li>
-                                    <li><a href="">Quần Shot</a></li>
-                                    <li><a href="">Phụ Kiện</a></li>
-                               
-                                </ul>
-                            </li>
-                            <li><a href="taikhoan.html">Người Dùng</a>
-                               
-                            </li>
-                            <li><a href="./shoping-cart.html">Giỏ hàng</a></li>
-                            <li><a href="./contact.html">Liên Hệ</a></li>
-
-                            
-                        </ul>
-                    </nav>
-                    
-                    <!-- end menu  -->
-                </div>
-                    <!-- phone ho trợ  -->
-                <div style="padding-top: 20px;" class="hero__search__phone">
-                    <div class="hero__search__phone__icon">
-                        <i class="fa fa-phone"></i>
-                    </div>
-                    <div class="hero__search__phone__text">
-                        <h5>+939815901</h5>
-                        <span>Hổ trợ 24/7 </span>
-                    </div>
-                </div>
-                <!-- end phone  -->
-            </div>
-            <div class="humberger__open">
-                <i class="fa fa-bars"></i>
-            </div>
-        </div>
-    </header>
-    <!-- Header destop End -->
+<?php
+require "../inc/header.php";
+?>
 
     <!-- Hero Section Begin -->
     <section class="hero">
@@ -175,7 +22,7 @@
                     </div>
                     <!-- end tìm kiếm  -->
                     <!-- banner  -->
-                    <div class="hero__item set-bg" data-setbg="img/hero/anh1.jpg">
+                    <div class="hero__item set-bg" data-setbg="../img/hero/anh1.jpg">
                         <!-- <div class="hero__text">
                             <h2>Chất Vải <br />100% Cotton</h2>
                             <p>Miển Phí Giao Hàng Cho Những Sản Phẩm Mới</p>
@@ -194,28 +41,24 @@
         <div class="container">
             <div class="row">
                 <div class="categories__slider owl-carousel">
+                    
                     <div class="col-lg-3">
-                        <div class="categories__item set-bg" data-setbg="img/categories/ao-1.webp">
-                            <h5><a href="shop-details.html">Uni T-Shirt</a></h5>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="categories__item set-bg" data-setbg="img/categories/ao-2.webp">
+                       <div class="categories__item set-bg" data-setbg="../img/categories/ao-2.webp">
                             <h5><a href="shop-details.html">Flower T-Shirt</a></h5>
                         </div>
                     </div>
                     <div class="col-lg-3">
-                        <div class="categories__item set-bg" data-setbg="img/categories/ao-3.webp">
+                        <div class="categories__item set-bg" data-setbg="../img/categories/ao-3.webp">
                             <h5><a href="#">LYOS Futu Logo T-Shirt ( Green )</a></h5>
                         </div>
                     </div>
                     <div class="col-lg-3">
-                        <div class="categories__item set-bg" data-setbg="img/categories/ao-4.webp">
+                        <div class="categories__item set-bg" data-setbg="../img/categories/ao-4.webp">
                             <h5><a href="#">Ram Hoodie</a></h5>
                         </div>
                     </div>
                     <div class="col-lg-3">
-                        <div class="categories__item set-bg" data-setbg="img/categories/ao-5.webp">
+                        <div class="categories__item set-bg" data-setbg="../img/categories/ao-5.webp">
                             <h5><a href="#">Uni T-Shirt</a></h5>
                         </div>
                     </div>
@@ -246,7 +89,7 @@
             <div class="row featured__filter">
                 <div class="col-lg-3 col-md-4 col-sm-6 mix ao">
                     <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="img/featured/ao-1.webp">
+                        <div class="featured__item__pic set-bg" data-setbg="../img/featured/ao-1.webp">
                             <ul class="featured__item__pic__hover">
                                 <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                 <li><a href="#"><i class="fa fa-retweet"></i></a></li>
@@ -261,7 +104,7 @@
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 mix ao">
                     <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="img/featured/ao-2.webp">
+                        <div class="featured__item__pic set-bg" data-setbg="../img/featured/ao-2.webp">
                             <ul class="featured__item__pic__hover">
                                 <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                 <li><a href="#"><i class="fa fa-retweet"></i></a></li>
@@ -276,7 +119,7 @@
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 mix ao">
                     <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="img/featured/ao-3.webp">
+                        <div class="featured__item__pic set-bg" data-setbg="../img/featured/ao-3.webp">
                             <ul class="featured__item__pic__hover">
                                 <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                 <li><a href="#"><i class="fa fa-retweet"></i></a></li>
@@ -291,7 +134,7 @@
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 mix ao">
                     <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="img/featured/ao-4.webp">
+                        <div class="featured__item__pic set-bg" data-setbg="../img/featured/ao-4.webp">
                             <ul class="featured__item__pic__hover">
                                 <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                 <li><a href="#"><i class="fa fa-retweet"></i></a></li>
@@ -306,7 +149,7 @@
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 mix quan">
                     <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="img/featured/quan-1.webp">
+                        <div class="featured__item__pic set-bg" data-setbg="../img/featured/quan-1.webp">
                             <ul class="featured__item__pic__hover">
                                 <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                 <li><a href="#"><i class="fa fa-retweet"></i></a></li>
@@ -321,7 +164,7 @@
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 mix quan">
                     <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="img/featured/quan-2.webp">
+                        <div class="featured__item__pic set-bg" data-setbg="../img/featured/quan-2.webp">
                             <ul class="featured__item__pic__hover">
                                 <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                 <li><a href="#"><i class="fa fa-retweet"></i></a></li>
@@ -336,7 +179,7 @@
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 mix quan">
                     <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="img/featured/quan-3.webp">
+                        <div class="featured__item__pic set-bg" data-setbg="../img/featured/quan-3.webp">
                             <ul class="featured__item__pic__hover">
                                 <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                 <li><a href="#"><i class="fa fa-retweet"></i></a></li>
@@ -351,7 +194,7 @@
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 mix quan">
                     <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="img/featured/quan-4.webp">
+                        <div class="featured__item__pic set-bg" data-setbg="../img/featured/quan-4.webp">
                             <ul class="featured__item__pic__hover">
                                 <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                 <li><a href="#"><i class="fa fa-retweet"></i></a></li>
@@ -366,7 +209,7 @@
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 mix phukien">
                     <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="img/featured/phukien-1.webp">
+                        <div class="featured__item__pic set-bg" data-setbg="../img/featured/phukien-1.webp">
                             <ul class="featured__item__pic__hover">
                                 <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                 <li><a href="#"><i class="fa fa-retweet"></i></a></li>
@@ -381,7 +224,7 @@
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 mix phukien">
                     <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="img/featured/phukien-2.webp">
+                        <div class="featured__item__pic set-bg" data-setbg="../img/featured/phukien-2.webp">
                             <ul class="featured__item__pic__hover">
                                 <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                 <li><a href="#"><i class="fa fa-retweet"></i></a></li>
@@ -396,7 +239,7 @@
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 mix phukien">
                     <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="img/featured/phukien-3.webp">
+                        <div class="featured__item__pic set-bg" data-setbg="../img/featured/phukien-3.webp">
                             <ul class="featured__item__pic__hover">
                                 <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                 <li><a href="#"><i class="fa fa-retweet"></i></a></li>
@@ -420,7 +263,7 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12">
                     <div class="banner__pic">
-                        <img src="img/km.jpg" alt="">
+                        <img src="../img/km.jpg" alt="">
                     </div>
                 </div>
             </div>
@@ -438,16 +281,16 @@
           <div style="height: 430px;" class="carousel-inner">
       
             <div class="item active">
-              <img src="img/bannerthanhly-web.jpg" alt="Khuyến mãi" style="width:100%;height: 100%;margin: 0 auto;">
+              <img src="../img/bannerthanhly-web.jpg" alt="Khuyến mãi" style="width:100%;height: 100%;margin: 0 auto;">
             </div>
       
             <div class="item">
-              <img src="img/anh.webp" alt="Chicago" style="width:100%;height: 100%">
+              <img src="../img/anh.webp" alt="Chicago" style="width:100%;height: 100%">
               
             </div>
           
             <div class="item">
-              <img src="img/km.jpg" alt="New York" style="width:100%;height: 100%">
+              <img src="../img/km.jpg" alt="New York" style="width:100%;height: 100%">
              
             </div>
         
@@ -478,7 +321,7 @@
                             <div class="latest-prdouct__slider__item">
                                 <a href="#" class="latest-product__item">
                                     <div class="latest-product__item__pic">
-                                        <img src="img/latest-product/nb1.webp" alt="">
+                                        <img src="../img/latest-product/nb1.webp" alt="">
                                     </div>
                                     <div class="latest-product__item__text">
                                         <h6>LYOS Futu Logo T-Shirt ( Green )</h6>
@@ -487,7 +330,7 @@
                                 </a>
                                 <a href="#" class="latest-product__item">
                                     <div class="latest-product__item__pic">
-                                        <img src="img/latest-product/nb2.webp" alt="">
+                                        <img src="../img/latest-product/nb2.webp" alt="">
                                     </div>
                                     <div class="latest-product__item__text">
                                         <h6>LYOS Futu Logo T-Shirt ( Black )</h6>
@@ -496,7 +339,7 @@
                                 </a>
                                 <a href="#" class="latest-product__item">
                                     <div class="latest-product__item__pic">
-                                        <img src="img/latest-product/nb3.webp" alt="">
+                                        <img src="../img/latest-product/nb3.webp" alt="">
                                     </div>
                                     <div class="latest-product__item__text">
                                         <h6>"BANHMI" ( Wolf Grey )</h6>
@@ -507,7 +350,7 @@
                             <div class="latest-prdouct__slider__item">
                                 <a href="#" class="latest-product__item">
                                     <div class="latest-product__item__pic">
-                                        <img src="img/latest-product/nb4.webp" alt="">
+                                        <img src="../img/latest-product/nb4.webp" alt="">
                                     </div>
                                     <div class="latest-product__item__text">
                                         <h6>Basic Polo</h6>
@@ -516,7 +359,7 @@
                                 </a>
                                 <a href="#" class="latest-product__item">
                                     <div class="latest-product__item__pic">
-                                        <img src="img/latest-product/nb5.webp" alt="">
+                                        <img src="../img/latest-product/nb5.webp" alt="">
                                     </div>
                                     <div class="latest-product__item__text">
                                         <h6>Flower T-Shirt</h6>
@@ -525,7 +368,7 @@
                                 </a>
                                 <a href="#" class="latest-product__item">
                                     <div class="latest-product__item__pic">
-                                        <img src="img/latest-product/nb6.webp" alt="">
+                                        <img src="../img/latest-product/nb6.webp" alt="">
                                     </div>
                                     <div class="latest-product__item__text">
                                         <h6>Ram Hoodie</h6>
@@ -543,7 +386,7 @@
                             <div class="latest-prdouct__slider__item">
                                 <a href="#" class="latest-product__item">
                                     <div class="latest-product__item__pic">
-                                        <img src="img/latest-product/xh1.webp" alt="">
+                                        <img src="../img/latest-product/xh1.webp" alt="">
                                     </div>
                                     <div class="latest-product__item__text">
                                         <h6>Uni T-Shirt</h6>
@@ -552,7 +395,7 @@
                                 </a>
                                 <a href="#" class="latest-product__item">
                                     <div class="latest-product__item__pic">
-                                        <img src="img/latest-product/xh2.webp" alt="">
+                                        <img src="../img/latest-product/xh2.webp" alt="">
                                     </div>
                                     <div class="latest-product__item__text">
                                         <h6>Tech Monogram Shirt</h6>
@@ -561,7 +404,7 @@
                                 </a>
                                 <a href="#" class="latest-product__item">
                                     <div class="latest-product__item__pic">
-                                        <img src="img/latest-product/xh3.webp" alt="">
+                                        <img src="../img/latest-product/xh3.webp" alt="">
                                     </div>
                                     <div class="latest-product__item__text">
                                         <h6>"BANHMI" ( BLUE )</h6>
@@ -572,7 +415,7 @@
                             <div class="latest-prdouct__slider__item">
                                 <a href="#" class="latest-product__item">
                                     <div class="latest-product__item__pic">
-                                        <img src="img/latest-product/xh4.webp" alt="">
+                                        <img src="../img/latest-product/xh4.webp" alt="">
                                     </div>
                                     <div class="latest-product__item__text">
                                         <h6>Ram T-Shirt ( Black )</h6>
@@ -581,7 +424,7 @@
                                 </a>
                                 <a href="#" class="latest-product__item">
                                     <div class="latest-product__item__pic">
-                                        <img src="img/latest-product/xh5.webp" alt="">
+                                        <img src="../img/latest-product/xh5.webp" alt="">
                                     </div>
                                     <div class="latest-product__item__text">
                                         <h6>Ram T-Shirt ( White )</h6>
@@ -590,7 +433,7 @@
                                 </a>
                                 <a href="#" class="latest-product__item">
                                     <div class="latest-product__item__pic">
-                                        <img src="img/latest-product/xh6.webp" alt="">
+                                        <img src="../img/latest-product/xh6.webp" alt="">
                                     </div>
                                     <div class="latest-product__item__text">
                                         <h6>Ram T-Shirt ( Cream )</h6>
@@ -608,7 +451,7 @@
                             <div class="latest-prdouct__slider__item">
                                 <a href="#" class="latest-product__item">
                                     <div class="latest-product__item__pic">
-                                        <img src="img/latest-product/dg1.webp" alt="">
+                                        <img src="../img/latest-product/dg1.webp" alt="">
                                     </div>
                                     <div class="latest-product__item__text">
                                         <h6>5 Rams T-Shirt ( Cream )</h6>
@@ -617,7 +460,7 @@
                                 </a>
                                 <a href="#" class="latest-product__item">
                                     <div class="latest-product__item__pic">
-                                        <img src="img/latest-product/dg2.webp" alt="">
+                                        <img src="../img/latest-product/dg2.webp" alt="">
                                     </div>
                                     <div class="latest-product__item__text">
                                         <h6>5 Rams T-Shirt ( Black )</h6>
@@ -626,7 +469,7 @@
                                 </a>
                                 <a href="#" class="latest-product__item">
                                     <div class="latest-product__item__pic">
-                                        <img src="img/latest-product/dg3.webp" alt="">
+                                        <img src="../img/latest-product/dg3.webp" alt="">
                                     </div>
                                     <div class="latest-product__item__text">
                                         <h6>Ripped Hoodie ( Light Brown )</h6>
@@ -637,7 +480,7 @@
                             <div class="latest-prdouct__slider__item">
                                 <a href="#" class="latest-product__item">
                                     <div class="latest-product__item__pic">
-                                        <img src="img/latest-product/dg4.webp" alt="">
+                                        <img src="../img/latest-product/dg4.webp" alt="">
                                     </div>
                                     <div class="latest-product__item__text">
                                         <h6>Ripped Hoodie ( Black )</h6>
@@ -646,7 +489,7 @@
                                 </a>
                                 <a href="#" class="latest-product__item">
                                     <div class="latest-product__item__pic">
-                                        <img src="img/latest-product/dg5.webp" alt="">
+                                        <img src="../img/latest-product/dg5.webp" alt="">
                                     </div>
                                     <div class="latest-product__item__text">
                                         <h6>Ripped Hoodie ( Cream )</h6>
@@ -655,7 +498,7 @@
                                 </a>
                                 <a href="#" class="latest-product__item">
                                     <div class="latest-product__item__pic">
-                                        <img src="img/latest-product/dg6.webp" alt="">
+                                        <img src="../img/latest-product/dg6.webp" alt="">
                                     </div>
                                     <div class="latest-product__item__text">
                                         <h6>Ripped Hoodie ( Blue )</h6>
@@ -671,115 +514,8 @@
     </section>
     <!-- end các mục sản phẩm -->
 
-   
+    <?php
+require "../inc/footer.php";
+?>
 
-    <!-- Footer destop -->
-    <footer class="footer spad footerdestop">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="footer__about">
-                        <div class="footer__about__logo">
-                            <a href="./index.html"><img style="width: 50px;height: 50px;" src="img/Was.png" alt="#"></a>
-                        </div>
-                        <ul>
-                            <li>Địa Chỉ: VJ3H+G4 Quận 12, Thành Phố Hồ Chí Minh, Việt Nam</li>
-                            <li>Số Điện Thoại: +939.815.901</li>
-                            <li>Email: was@localbrand.com</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6 offset-lg-1">
-                    <div class="footer__widget">
-                        <h6>Liên Kết Hữu Ích</h6>
-                        <ul>
-                            <li><a href="#">Về chúng tôi</a></li>
-                            <li><a href="#">Về cửa hàng của chúng tôi</a></li>
-                            <li><a href="#">Mua sắm an toàn</a></li>
-                            <li><a href="#">Thông tin giao hàng</a></li>
-                            <li><a href="#">Chính sách bảo mật</a></li>
-                            <li><a href="#">Sơ đồ trang web</a></li>
-                        </ul>
-                        <!-- <ul>
-                            <li><a href="#">Chúng ta là ai</a></li>
-                            <li><a href="#">Dịch vụ của chúng tôi</a></li>
-                            <li><a href="#">Dự án</a></li>
-                            <li><a href="#"> Sự đổi mới</a></li>
-                            <li><a href="#"> Tiếp xúc</a></li>
-                            <li><a href="#">Lời chứng thực</a></li>
-                        </ul> -->
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-12">
-                    <div class="footer__widget">
-                        <h6>Tham gia bản tin của chúng tôi ngay bây giờ</h6>
-                        <p>Nhận thông tin cập nhật qua email về cửa hàng mới nhất của chúng tôi và các ưu đãi đặc biệt.</p>
-                        <form action="#">
-                            <input type="text" placeholder="Điền mail của bạn">
-                            <button type="submit" class="site-btn">Gửi Ngay</button>
-                        </form>
-                        <div class="footer__widget__social">
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-instagram"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                            <!-- <a href="#"><i class="fa fa-pinterest"></i></a> -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- end footer -->
-
-
-<!-- footer mobile  -->
-<footer class="footer spad foomobile">
-    <div class="container">
-        <div class="row">
-           
-            <div class="col-lg-4 col-md-12">
-                <div class="footer__widget">
-                    <h6>Tham gia bản tin của chúng tôi ngay bây giờ</h6>
-                    <p>Nhận thông tin cập nhật qua email về cửa hàng mới nhất của chúng tôi và các ưu đãi đặc biệt.</p>
-                    <form action="#">
-                        <input type="text" placeholder="Nhập Thư Của Bạn">
-                        <button type="submit" class="site-btn">Gửi Ngay</button>
-                    </form>
-                    <div class="footer__widget__social">
-                        <a href="#"><i class="fa fa-facebook"></i></a>
-                        <a href="#"><i class="fa fa-instagram"></i></a>
-                        <a href="#"><i class="fa fa-twitter"></i></a>
-                        <a href="#"><i class="fa fa-pinterest"></i></a>
-                    </div>
-                    
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-6">
-                <div class="footer__about">
-                    <ul>
-                        <li>Địa Chỉ: VJ3H+G4 Quận 12, Thành Phố Hồ Chí Minh, Việt Nam</li>
-                        <li>Số Điện Thoại: +939.815.901</li>
-                        <li>Email: was@localbrand.com</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</footer>
-<!-- end footer  -->
-
-    <!-- Js Plugins -->
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.nice-select.min.js"></script>
-    <script src="js/jquery-ui.min.js"></script>
-    <script src="js/jquery.slicknav.js"></script>
-    <script src="js/mixitup.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/main.js"></script>
-
-
-
-</body>
-
-</html>
+    

@@ -11,7 +11,9 @@
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;900&display=swap" rel="stylesheet">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
     <!-- Css Styles -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
@@ -174,81 +176,38 @@
 <!-- Hero Section End -->
 
 <!-- form dang nhap -->
-
-    <h3 style="text-align: center;">Tài khoản của bạn</h3>
-    <div style="margin-top: 20px;" class="container">
-        <div class="row">
-            <div class="col-lg-5">
-                <h5 style="text-align: center;font-weight:  bold;margin-bottom: 10px;">Thông tin tài khoản</h5>
-                <table class="table table-condensed">
-                    <tr>
-                        <td><h5>Tên đăng nhập:</h5><p>Trunghuu556 </p></td>
-                      </tr>
-                      <tr>
-                        <td><h5>Mật Khẩu:</h5><p>Trunghuu556@gmail.com </p></td>
-                      </tr>
-                      <tr>
-                     
-                        <td><h5>Email:</h5><p>Trunghuu556@gmail.com</p></td>
-                      </tr>
-                      <tr>
-                        <td><h5>Ngày sinh:</h5><p>12/11/2003 </p></td>
-                      </tr>
-                     
-                      <tr>
-                        <td><h5>Địa Chỉ:</h5><p>123 quang trung .quan 11 </p></td>
-                      </tr>
-                      <tr>
-                        <td><h5>Số Điện Thoại:</h5><p>0939815901</p></td>
-                      </tr>
-
-                      <tr>
-                        <td><h5>Ảnh:</h5><img style="width: 50%;height: auto;" src="img/anh.webp" alt=""></td>
-                      </tr>
-
-                     
-                  </table>
-                  <a href="doithongtin.html"> <button type="button" class="btn btn-success bt">Thay đổi thông tin</button></a>
-            </div>
-
-            <div class="col-lg-7">
-                <h5 style="text-align: center;font-weight:  bold;margin-bottom: 10px;">Đơn hàng của bạn</h5>
-            <table class="table table-condensed">
-               
-               
-                  <tr>
-                    <th>Mã đơn</th>
-                    <th>Trạng thái</th>
-                    <th>Thông tin</th>
-                  </tr>
-                  <tr>
-                    <td>1</td>
-                    <td>Đã Giao</td>
-                    <td>Quần ,Áo <a style=" float: right;" href="chitietsanpham.html">Chi tiết</a></td>
-                  </tr>
-                  <tr>
-                    <td>2</td>
-                    <td>Chờ xác nhận</td>
-                    <td>Quần ,Áo <a style=" float: right;" href="#">Chi tiết</a></td>
-                  </tr>
-
-                  <tr>
-                    <td>3</td>
-                    <td>Đã Giao</td>
-                    <td>Quần ,Áo <a style=" float: right;" href="#">Chi tiết</a></td>
-                  </tr>
-
-                  <tr>
-                    <td>4</td>
-                    <td>Đang giao</td>
-                    <td>Quần ,Áo <a style=" float: right;" href="#">Chi tiết</a></td>
-                  </tr>
-              
-              </table>
+<div class="container">
+    <h3 style="text-align: center;">Đăng nhập tài khoản</h3>
+    <p style="text-align: center;">Đăng nhập bằng:</p>
+   
+    <!-- điền thông tin đăng nhập  -->
+    <form class="dnmb"  action="/action_page.php">
+        <div  class="form-group">
+          <label for="email">Email :</label>
+          <input type="email"placeholder="Nhập email hoặc tên đăng nhập" class="form-control form-control-lg" id="email">
         </div>
+        <div class="form-group">
+          <label for="pwd">Mật Khẩu:</label>
+          <input type="password"placeholder="Nhập mật khẩu" class="form-control form-control-lg" id="pwd">
         </div>
+      <!-- end điền thông tin -->
+
+      <!-- button dang nhap  -->
+      <div class="row">
+      <button  type="button" class="btn btn-dark ">Đăng nhập</button>
+      
     </div>
-
+      <!-- end button  -->
+      <!-- quên mật khẩu  -->
+      <div class="row">
+        <a class="qmk" href="quenmk-email.html">Quên mật khẩu?</a>  
+      </div>
+      <!-- end quên mat khau -->
+      <div class="row">
+        <p style="margin: 0 auto;margin-top: 15px;margin-bottom: 15px;">Bạn chưa có tài khoản?.Đăng kí ngay<a class="tkm" href="dangki.html">Tại đây</a>  </p>
+      </div>
+</div>
+   <!-- end form dang nhap  -->
 
     <!-- Footer destop -->
     <footer class="footer spad footerdestop">
@@ -257,7 +216,7 @@
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="footer__about">
                         <div class="footer__about__logo">
-                            <a href="./index.html"><img style="width: 100px;height: 50px;" src="img/Was.png" alt="#"></a>
+                            <a href="./index.html"><img style="width: 50px;height: 50px;" src="img/Was.png" alt="#"></a>
                         </div>
                         <ul>
                             <li>Địa Chỉ: VJ3H+G4 Quận 12, Thành phố Hồ Chí Minh, Việt Nam</li>
